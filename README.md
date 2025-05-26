@@ -11,7 +11,7 @@ This is a simple admission process form fro the snbp morwadi school
 - css
 
 ---
-*Jaykishan Saharan*
+**Jaykishan Saharan**
 [GitHub](https://github.com/jaykishan1saharan) | [LinkedIn](www.linkedin.com/in/jaikishan-saharan-a67485327)
 
 ---
