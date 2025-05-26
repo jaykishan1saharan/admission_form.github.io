@@ -3,7 +3,7 @@ This is a simple admission process form fro the snbp morwadi school
 
 ---
 # 📸 Preview of the website
-[App Demo]https://jaykishan1saharan.github.io/admission_form.github.io/
+[App Demo](https://jaykishan1saharan.github.io/admission_form.github.io/)
 
 ---
 # ⚙ Technologies used
