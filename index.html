@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>Addition form</title>
+        <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .placeholder {
+            border: 2px dashed black;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .placeholder p {
+            margin: 10px 0;
+        }
+        </style>
+    </head>
+    <body align="center">
+        <hr>
+        <table align="center">
+        <tr>
+            <th><img src="C:\Users\Jaykishan\OneDrive\Desktop\Web Development\Images\snbp_logo.png" height="100px" width="200px"></th> 
+            <th><p><h1><font color="blue">S.N.B.P International School</font></h1>
+         Sant dyaneshwar nagar, mhada colony, morwadi, pimpri pune - 411018 <br>
+        <font color="orrange">CBSE affiliation number 1130522. UDISE Code : 2725*001*07</font><br>
+        <font color="orrange">Email: snbp.morwadi@gmail.com  Website: https://morwadi.cbse.snbpinstitutes.com/</font><br>
+        <h2><font color="red"><marquee behavior="scroll" scrollamount="10" direction="right" bgcolor="aqua">Application for admission. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Session 2025-2026</font></marquee></h2> </p></th>
+        </tr>
+        </table>
+        <hr>
+        <form>
+            <div class="container">
+                <div class="placeholder">
+                    <p><strong>Students's</strong></p> 
+                    <p>the photograph of student</p> <br>
+                    <input type="file">
+                </div> 
+            </div>
+            <div class="container">
+                <div class="placeholder">
+                    <p><strong>Father's</strong></p> 
+                    <p>the photograph of father</p> <br>
+                    <input type="file">
+                </div>
+            </div>
+            <div class="container">
+                <div class="placeholder">
+                    <p><strong>Mother's</strong></p> 
+                    <p>the photograph of mother</p> <br>
+                    <input type="file">
+                </div>
+            </div>
+        
+            <br><br>
+        
+        <table align="center
+        " cellspacing="20px">
+        <tr>
+            <th>class: <select>
+            <option value="playground">playground</option>
+            <option value="jr kg">jr kg</option>
+            <option value="sr kg">sr kg</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select></th> <th>Admission type: <input type="text" name="text" background-color="red"></th>
+        </tr>
+        </table> <br>
+
+        <h2><font color="red">Students details</font></h2>
+
+        <table cellspacing="20px">
+            <tr>
+                <th>
+                    Name: <input type="text" name="uname">
+                </th>
+                <th>
+                    Nationality: <input type="text">
+                </th>
+                <th>
+                    Mother tongue: <input type="text">
+                </th>
+                <th>
+                    Date of birth: <input type="date">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Place of birth: <input type="text">
+                </th>
+                <th>
+                    Gender: <input type="radio" name="Gender">Male
+                            <input type="radio" name="Gender">Female
+                </th>
+                <th>
+                    Single child: <input type="radio" name="Single child">Yes
+                            <input type="radio" name="Single child">No
+                </th>
+                <th>
+                    Specially abled: <input type="radio" name="Specially abled">Yes
+                            <input type="radio" name="Specially abled">No
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Religion: <input type="text" name="Religion">
+                </th>
+                <th>
+                    Caste: <input type="text" name="Caste">
+                </th>
+                <th>
+                    Sub-caste: <input type="text" name="Sub-caste">
+                </th>
+                <th>
+                    Category: <input type="radio" name="Category">GENERAL
+                            <input type="radio" name="Category">SC
+                            <input type="radio" name="Category">OBC
+                            <input type="radio" name="Category">EWS
+                            <input type="radio" name="Category">ST
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Blood group: <input type="text">
+                </th>
+                <th>
+                    Allergic to: <input type="text">
+                </th>
+                <th>
+                    Aadhar number: <input type="number" maxlength="12">
+                </th>
+                <th>
+                    Family id(if applicable): <input type="number">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Mobile number: <input type="number" maxlength="10">
+                </th>
+                <th>
+                    Last school name: <input type="text">
+                </th>
+                <th>
+                    Board: <input type="text" name="board">
+                </th>
+            </tr>
+        </table>
+
+        <h2><font color="red">Progess report of previos class.</font></h2>
+        
+        <table cellspacing="20px">
+            <tr>
+                <th>Subject</th>
+                <th>Maximum marks</th>
+                <th>Marks obtained</th>
+                <th>Marks percentage</th>
+                <th>Remarks</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="Subject"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number">%</th>
+                <th><input type="radio" name="Remarks">Pass
+                    <input type="radio" name="Remarks">Fail</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="Subject"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number">%</th>
+                <th><input type="radio" name="Remarks">Pass
+                    <input type="radio" name="Remarks">Fail</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="Subject"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number">%</th>
+                <th><input type="radio" name="Remarks">Pass
+                    <input type="radio" name="Remarks">Fail</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="Subject"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number">%</th>
+                <th><input type="radio" name="Remarks">Pass
+                    <input type="radio" name="Remarks">Fail</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="Subject"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number" minlength="0" maxlength="500"></th>
+                <th><input type="number">%</th>
+                <th><input type="radio" name="Remarks">Pass
+                    <input type="radio" name="Remarks">Fail</th>
+            </tr>
+        </table>
+        <br>
+        <table align="center">
+            <tr>
+                <th>
+                    <input type="reset" style="background-color:#3b07fa"> <input type="submit" style="background-color:lightgreen">
+                </th>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
